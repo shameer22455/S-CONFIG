@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "updatedAt": "2026-09-20T12:00:00Z",
+  "syncIntervalDays": 7,
+  "defaultRepositories": [
+    {
+      "name": "Nuvio Official All-in-One Repository",
+      "manifestUrl": "https://raw.githubusercontent.com/NuvioMedia/nuvio-providers/main/manifest.json",
+      "enabledByDefault": true
+    }
+  ],
+  "defaultAddons": [
+    {
+      "name": "Cinemeta",
+      "manifestUrl": "https://v3-cinemeta.strem.io/manifest.json",
+      "enabledByDefault": true
+    },
+    {
+      "name": "HDHub",
+      "manifestUrl": "https://hdhub.thevolecitor.qzz.io/eyJ0b3Jib3giOiJ1bnNldCIsInF1YWxpdGllcyI6IjIxNjBwLDEwODBwLDcyMHAiLCJzb3J0IjoiZGVzYyJ9/manifest.json",
+      "enabledByDefault": true
+    },
+    {
+      "name": "WebStreamR",
+      "manifestUrl": "https://87d6a6ef6b58-webstreamrmbg.baby-beamup.club/manifest.json",
+      "enabledByDefault": true
+    },
+    {
+      "name": "Torrentio Lite",
+      "manifestUrl": "https://torrentio.strem.fun/manifest.json",
+      "enabledByDefault": true
+    },
+    {
+      "name": "Cyberflix",
+      "manifestUrl": "https://cyberflix.konoa.link/manifest.json",
+      "enabledByDefault": false
+    },
+    {
+      "name": "OpenSubtitles v3",
+      "manifestUrl": "https://opensubtitles.strem.fun/manifest.json",
+      "enabledByDefault": false
+    },
+    {
+      "name": "MediaFusion",
+      "manifestUrl": "https://mediafusion.elfhosted.com/manifest.json",
+      "enabledByDefault": false
+    }
+  ],
+  "scraperRankings": {
+    "tier1_priority": [
+      "4khdhub",
+      "4khdhubnew",
+      "hdhub4u",
+      "hdghartv",
+      "uhdmovies",
+      "vegamovies"
+    ],
+    "tier2_fallback": [
+      "torrentio",
+      "vidsrc",
+      "superstream",
+      "showbox",
+      "vidlink",
+      "videasy",
+      "vixsrc",
+      "moviesmod",
+      "moviesdrive",
+      "allanime",
+      "hianime",
+      "animepahe",
+      "anikototv",
+      "anidb",
+      "allwish",
+      "animekai",
+      "desiflix",
+      "einthusan",
+      "allmovieland",
+      "cineby",
+      "cinefreak",
+      "cinemm",
+      "cinemacity",
+      "ctgmovies",
+      "dahmermovies",
+      "dooflix",
+      "fibwatch",
+      "goated",
+      "gramcinema",
+      "hindmoviez",
+      "kurage",
+      "moviebox",
+      "movieblast",
+      "movieshunt",
+      "movies4u",
+      "movix",
+      "nakios",
+      "netmirror",
+      "persianstremio",
+      "peachify",
+      "playimdb",
+      "purstream",
+      "topcartoons",
+      "vidrock",
+      "vidfast",
+      "xpass",
+      "zinkmovies",
+      "onlykdrama",
+      "kisskh"
+    ],
+    "disabled": []
+  },
+  "addonRankings": {
+    "priorityAddons": [
+      "hdhub",
+      "webstream",
+      "baby-beamup"
+    ]
+  }
+}
