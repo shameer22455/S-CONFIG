@@ -1,11 +1,11 @@
 {
-  "version": 3,
-  "updatedAt": "2026-09-20T12:00:00Z",
+  "version": 4,
+  "updatedAt": "2026-09-27T12:00:00Z",
   "syncIntervalDays": 7,
   "defaultRepositories": [
     {
       "name": "Nuvio Official All-in-One Repository",
-      "manifestUrl": "https://raw.githubusercontent.com/NuvioMedia/nuvio-providers/main/manifest.json",
+      "manifestUrl": "https://raw.githubusercontent.com/NuvioPlugin/All-in-One-Nuvio/refs/heads/main/manifest.json",
       "enabledByDefault": true
     }
   ],
