@@ -1,8 +1,13 @@
 {
-  "version": 5,
-  "updatedAt": "2026-10-08T12:00:00Z",
+  "version": 6,
+  "updatedAt": "2026-11-11T17:35:00Z",
   "syncIntervalDays": 1,
   "defaultRepositories": [
+    {
+      "name": "SDM Plugins",
+      "manifestUrl": "https://raw.githubusercontent.com/shameer22455/plugin/main/manifest.json",
+      "enabledByDefault": true
+    },
     {
       "name": "Nuvio Official All-in-One Repository",
       "manifestUrl": "https://raw.githubusercontent.com/NuvioPlugin/All-in-One-Nuvio/refs/heads/main/manifest.json",
@@ -48,6 +53,7 @@
   ],
   "scraperRankings": {
     "tier1_priority": [
+      "sdm",
       "4khdhub",
       "4khdhubnew",
       "hdhub4u",
